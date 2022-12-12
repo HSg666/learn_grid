@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: 2rem;
+      display: grid;
+      grid-template-areas:
+        "nav article"
+        "aside footerArticle";
+      gap: 20px;
+      grid-template-columns: 200px 1fr;
+    }
+    .nav {
+      grid-area: nav;
+    }
+    .article {
+      grid-area: article;
+    }
+    .aside {
+      grid-area: aside;
+      border-right: 2px solid #cfcfcf;
+    }
+    .footer-article {
+      grid-area: footerArticle;
+    }
+    .nav,
+    .footer-article {
+      border: 2px solid deepskyblue;
+      border-radius: 5px;
+      background-color: #c8e3d6;
+    }
+    h2 {
+      padding-bottom: 20px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="nav">THis is my blog</div>
+      <div class="article">
+        <h2>My article</h2>
+        <p>经典美文，听写——让心情舒畅！每天上午10点准时与大家相见。</p>
+        <br />
+        <p>
+          Hints:Southern Africarly African American: Jumping the Broom In the
+          times of slavery in this country, African American couples were not
+          allowed to formally marry and live together. To make a public
+          declaration of their love and commitment, a man and woman jumped over
+          a broom into matrimony, to the beat of drums. The broom has long held
+          significant meaning for the various Africans, symbolizing, the start
+          of home - making for the newlywed couple. In Southern Africa, the day
+          after the wedding, the bride assisted the other women in the family in
+          sweeping the courtyard, indicating her dutiful willing ness to help
+          her in-laws with housework till the newlyweds could move to their new
+          home. Some African-American couples today are choosing to include this
+          symbolic rite in their wedding ceremony.
+        </p>
+        <br />
+        <p>
+          早期非洲裔美国人：跳扫帚在美国的黑奴时代，黑人男女是不允许正式结婚生活在一起的。为了向世人宣布他们的.爱情和婚约，一对黑人男女和着鼓声的节奏，一起跳过一把扫帚。（扫帚对各种非洲人长期来都具有很重要的意义，因为它意味着新婚夫妇组成家庭的开始。在南部非洲，新娘在婚后的第一天要帮助夫家的其他女性清扫院子，以此表明在住进自己的新家前，她愿意尽职地帮助丈夫的家人承担家务劳动。）直至今日，一些美国黑人还在他们的婚礼上举行这种象征性的仪式。这篇材料你能听出多少？点击这里做听写，提高外语水平>>
+        </p>
+      </div>
+      <div class="aside">
+        <h2>Other things</h2>
+        <p>
+          Hints:Southern Africarly African American: Jumping the Broom In the
+          times of slavery in this country, African American couples were not
+          allowed to formally marry and live together.
+        </p>
+      </div>
+      <div class="footer-article">Contact me@mysite.com</div>
+    </div>
+  </body>
+</html>
